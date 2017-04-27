@@ -18,7 +18,10 @@ exports.ODKURL_PORT = "8080";
 exports.ODK_USERNAME = "NIE_admin";
 exports.ODK_PASSWORD = "NIE!@#abc";
 
+exports.eventProgramStage = "jDDmmG7ZePy";
+exports.eventProgram = "sIEPsgABx0L";
 exports.ouODKKey = "district";
 exports.codePrefix = "/eDFSS_DataCollect/";
 exports.eventDateKey = "Date";
 exports.eventUIDKey = "instanceID";
+exports.deUIDCoordinate = "mEWZIvuQWwe";
