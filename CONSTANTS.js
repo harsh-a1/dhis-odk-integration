@@ -17,3 +17,8 @@ exports.ODKURL_PATH_DATA = "/ODKAggregate/view/downloadSubmission?formId=edfss_d
 exports.ODKURL_PORT = "8080";
 exports.ODK_USERNAME = "NIE_admin";
 exports.ODK_PASSWORD = "NIE!@#abc";
+
+exports.ouODKKey = "district";
+exports.codePrefix = "/eDFSS_DataCollect/";
+exports.eventDateKey = "Date";
+exports.eventUIDKey = "instanceID";
