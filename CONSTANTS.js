@@ -106,8 +106,34 @@ exports.ODK2DHIS[ipd_aggregate_form_id] = {
 };
 
 
+var test_form_id = "Test";
+var test_odk_qustion_prefix_id = "Test";
+
+exports.ODK2DHIS[test_form_id] = {
+
+    ODK_URL_PATH : "/GHSA/view/submissionList?formId="+test_form_id,
+    ODK_URL_PATH_DATA : "/GHSA/view/downloadSubmission?formId="+test_form_id+"[@version=null@uiVersion=null]/"+test_odk_qustion_prefix_id,
+    ODK_formId : test_form_id,
+    ODK_questionPrefixId : test_odk_qustion_prefix_id,
+    DHIS_TE : "MCPQUTHX1Ze",
+    DHIS_PROGRAM : "FEd7fCLNx5b",
+    DHIS_PROGRAMSTAGE : "CfrZfBR990Y",
+    DHIS_CC  : "bjDvmb4bfuf",
+    
+    ODK_QUESTION_VILLAGE : "Location",
+    ODK_eventDateKey : "Date",
+    ODK_eventUIDKey : "instanceID"
+    
+};
 
 
+
+exports.DHIS_IPD_PROGRAM_UID = "c9LK7wM2Xmp";
+exports.DHIS_LAB_PROGRAM_UID = "uN7UhBdFv0g";
+
+exports.DHIS_DE_IPD_SYNDROME_UID = "gkeo5Y1FXI0";
+exports.DHIS_CLUSTER_TRACKED_ENTITY_UID = "hC0cUhQaiMj";
+exports.DHIS_CLUSTER_PROGRAM_UID = "ffRkFje0rtR";
 
 
 exports.eventProgramStage = "apqU6esBuwV";
@@ -124,17 +150,24 @@ exports.DE_AFI_CASE = "xYO8HkDDW3N";
 exports.CLUSTER_DE_VILLAGE = "mEWZIvuQWwe";
 
 
-exports.CLUSTER_TEA_LABCONFIRMED = "gPGTS8eGa4i";
-exports.CLUSTER_TEA_3AFICASE = "oqTYHlWrWBh";
-exports.CLUSTER_TEA_5AFICASE = "oDg3FLcVw0R";
-exports.CLUSTER_TEA_2ADDCASE = "k3C0dkjcSg2";
-exports.CLUSTER_TEA_IS_ACTIVE = "sP8CfjSrtRq";
-exports.CLUSTER_TEA_ODKINTEGRATIONCODE = "AqHMFVqkwOG";
-exports.CLUSTER_TEA_COORDINATE = "ALvy8yTD1Np";
-exports.CLUSTER_TEA_FEATURETYPE = "puso6mGwJFL";
-exports.CLUSTER_PROGRAM = "wXXVzDXRLMe";
-exports.CLUSTER_RELATIONSHIP = "Foh90NcLrpq";
-exports.LAB_DE_GROUP = "YnLMC0T8BKB";
+exports.CLUSTER_TEA_LABCONFIRMED = "COPKdK3KzSP";
+exports.CLUSTER_TEA_3AFICASE = "pm2TKuWJLbw";
+exports.CLUSTER_TEA_5AFICASE = "nw49dd8Q0BQ";
+exports.CLUSTER_TEA_2ADDCASE = "vPf6KTZUt2t";
+exports.CLUSTER_TEA_IS_ACTIVE = "lXGaFLw5St7";
+exports.CLUSTER_TEA_CLUSTERID = "VUljK1VMwYe";
+exports.CLUSTER_TEA_CLUSTER_TYPE = "cQtvvB2qKTL";
+
+exports.CLUSTER_TEA__CLUSTER_IDENTIFIER = "eDCvZdpPzQV";
+exports.CLUSTER_TEA_COORDINATE = "ZPyPUuyn4ho";
+exports.CLUSTER_TEA_FEATURETYPE = "xfWYADQF7xa";
+exports.CLUSTER_PROGRAM = "ffRkFje0rtR";
+exports.CLUSTER_PROGRAMSTAGE = "L5D7K2igT3Y";
+
+exports.CLUSTER_DE_GROUP_DE_TO_SHOW = "PcJXrJvKvIi";
+exports.CLUSTER_DE_CASE_TEI_UID = "BKGdfOa8PNn";
+
+exports.LAB_DE_GROUP = "jFn5jAxuiDB";
 
 
 
