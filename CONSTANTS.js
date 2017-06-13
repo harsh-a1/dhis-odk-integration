@@ -2,7 +2,7 @@
  * Created by harsh on 16/7/16.
  */
 
-exports.DHIS_URL_BASE = "http://localhost:8090/dhis";
+exports.DHIS_URL_BASE = "http://localhost:8090/dhis2.27";
 
 
 exports.username = "admin";
@@ -21,7 +21,7 @@ exports.ODK_PASSWORD = "hisp_admin";
 
 exports.ODK2DHIS = {};
 
-exports.ODK2DHIS["EDFSS_IPD_Aggregate"] = { 
+exports.ODK2DHIS["IPD_Aggregate_V1"] = { 
     ODK_OrgUnitQuestion : "Institution",     
 };
 
@@ -33,17 +33,14 @@ exports.eventUIDKey = "instanceID";
 exports.ODK_OrgUnitQuestion = "Address_Information/Village";
 
 exports.DHIS_DefaultCategoryCombo = "GLevLNI9wkl";
+exports.DHIS_ROOT_OU_UID = "mnbTnDyJ37p";
+exports.DHIS_DE_ODK_FORMID = "glBt6kk3AXS";
 
 
 
 
-
-exports.DHIS_IPD_PROGRAM_UID = "c9LK7wM2Xmp";
-exports.DHIS_LAB_PROGRAM_UID = "uN7UhBdFv0g";
-
-exports.DHIS_DE_IPD_SYNDROME_UID = "gkeo5Y1FXI0";
-exports.DHIS_CLUSTER_TRACKED_ENTITY_UID = "hC0cUhQaiMj";
-exports.DHIS_CLUSTER_PROGRAM_UID = "ffRkFje0rtR";
+exports.DHIS_DE_SYNDROME_UID = "hkbX11lZdlK";
+exports.DHIS_CLUSTER_TRACKED_ENTITY_UID = "q0NbkqzMUF8";
 
 
 
@@ -51,28 +48,25 @@ exports.DHIS_CLUSTER_PROGRAM_UID = "ffRkFje0rtR";
 exports.trackedEntity = "MCPQUTHX1Ze";
 
 
-exports.DE_AFI_CASE = "xYO8HkDDW3N";
-exports.CLUSTER_DE_VILLAGE = "mEWZIvuQWwe";
+exports.CLUSTER_TEA_LABCONFIRMED = "nMC9jWaMUTA";
+exports.CLUSTER_TEA_3AFICASE = "vCeMi4DtfEC";
+exports.CLUSTER_TEA_5AFICASE = "k0L2KR4ZrU2";
+exports.CLUSTER_TEA_2ADDCASE = "ET5iMtBo5fV";
+exports.CLUSTER_TEA_IS_ACTIVE = "DyjpKLdKmoD";
+exports.CLUSTER_TEA_CLUSTERID = "ITGMdhSozgC";
+exports.CLUSTER_TEA_CLUSTER_TYPE = "sBmb7HfvAau";
+exports.CLUSTER_TEA_CASES_UIDS = "I2eCWfhryZH";
+exports.CLUSTER_TEA_CLUSTER_METHOD = "nifrYIceHDu";
 
+ exports.CLUSTER_TEA__CLUSTER_IDENTIFIER = "eDCvZdpPzQV";
+exports.CLUSTER_TEA_COORDINATE = "sanq4S5uYdb";
+exports.CLUSTER_TEA_FEATURETYPE = "Dh0HlV2bqh2";
+exports.CLUSTER_PROGRAM = "mcnt7nqNrNw";
+exports.CLUSTER_PROGRAMSTAGE = "pxY0AQCVkKu";
+exports.CLUSTER_DE_CASE_TEI_UID = "TTN6YvF19W1";
 
-exports.CLUSTER_TEA_LABCONFIRMED = "COPKdK3KzSP";
-exports.CLUSTER_TEA_3AFICASE = "pm2TKuWJLbw";
-exports.CLUSTER_TEA_5AFICASE = "nw49dd8Q0BQ";
-exports.CLUSTER_TEA_2ADDCASE = "vPf6KTZUt2t";
-exports.CLUSTER_TEA_IS_ACTIVE = "lXGaFLw5St7";
-exports.CLUSTER_TEA_CLUSTERID = "VUljK1VMwYe";
-exports.CLUSTER_TEA_CLUSTER_TYPE = "cQtvvB2qKTL";
-
-exports.CLUSTER_TEA__CLUSTER_IDENTIFIER = "eDCvZdpPzQV";
-exports.CLUSTER_TEA_COORDINATE = "ZPyPUuyn4ho";
-exports.CLUSTER_TEA_FEATURETYPE = "xfWYADQF7xa";
-exports.CLUSTER_PROGRAM = "ffRkFje0rtR";
-exports.CLUSTER_PROGRAMSTAGE = "L5D7K2igT3Y";
-
-exports.CLUSTER_DE_GROUP_DE_TO_SHOW = "PcJXrJvKvIi";
-exports.CLUSTER_DE_CASE_TEI_UID = "BKGdfOa8PNn";
-
-exports.LAB_DE_GROUP = "jFn5jAxuiDB";
+exports.CLUSTER_DE_GROUP_DE_TO_SHOW = "sXzZ0Xl2F0j";
+exports.LAB_DE_GROUP_UID = "dhw8v5ntj2U";
 
 
 
