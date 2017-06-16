@@ -2,7 +2,7 @@
  * Created by harsh on 16/7/16.
  */
 
-exports.DHIS_URL_BASE = "http://localhost:8090/dhis2.27";
+exports.DHIS_URL_BASE = "http://localhost:8090/dhis";
 
 
 exports.username = "admin";
