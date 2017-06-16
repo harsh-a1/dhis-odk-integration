@@ -2,7 +2,7 @@
  * Created by harsh on 16/7/16.
  */
 
-exports.DHIS_URL_BASE = "http://localhost:8090/dhis";
+exports.DHIS_URL_BASE = "http://139.162.61.147/nieodk";
 
 
 exports.username = "admin";
