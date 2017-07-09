@@ -2,7 +2,8 @@
  * Created by harsh on 16/7/16.
  */
 
-exports.DHIS_URL_BASE = "http://localhost:8090/dhis/";
+exports.DHIS_URL_BASE = "http://139.162.61.147/nieodk/";
+//exports.DHIS_URL_BASE = "http://localhost:8090/dhis/";
 
 
 exports.username = "admin";
@@ -16,6 +17,13 @@ exports.auth = "Basic " + new Buffer(exports.username + ":" + exports.password).
 exports.ODKURL_HOSTNAME = "/GHSA";
 exports.ODKURL_HOST = "http://112.133.207.124";
 exports.ODKURL_PORT = "8080";
+
+/*
+exports.ODKURL_HOSTNAME = "/GHSA";
+exports.ODKURL_HOST = "http://localhost";
+exports.ODKURL_PORT = "8090";
+*/
+
 exports.ODK_USERNAME = "hisp_admin";
 exports.ODK_PASSWORD = "hisp_admin";
 
@@ -57,6 +65,8 @@ exports.CLUSTER_TEA_CLUSTERID = "ITGMdhSozgC";
 exports.CLUSTER_TEA_CLUSTER_TYPE = "sBmb7HfvAau";
 exports.CLUSTER_TEA_CASES_UIDS = "I2eCWfhryZH";
 exports.CLUSTER_TEA_CLUSTER_METHOD = "nifrYIceHDu";
+exports.CLUSTER_TEA_CLUSTER_INDEX_DATE = "tSauh1hpsrn";
+exports.CLUSTER_TEA_CLUSTER_TAIL_DATE = "b1WmXl2TU5U";
 
  exports.CLUSTER_TEA__CLUSTER_IDENTIFIER = "eDCvZdpPzQV";
 exports.CLUSTER_TEA_COORDINATE = "sanq4S5uYdb";
