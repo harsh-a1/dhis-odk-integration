@@ -77,6 +77,7 @@ exports.CLUSTER_DE_CASE_TEI_UID = "TTN6YvF19W1";
 
 exports.CLUSTER_DE_GROUP_DE_TO_SHOW = "sXzZ0Xl2F0j";
 exports.LAB_DE_GROUP_UID = "dhw8v5ntj2U";
+exports.EMAIL_GROUP_UID = "Xd1Be2b1D8x";
 
 
 
@@ -88,3 +89,9 @@ exports.DHIS_Registration_Origin_DE = "CPrDolo2qSh";
 exports.DHIS_Registration_Syndrome_DE = "xYO8HkDDW3N";
 
 
+exports.Reports = {
+    ClusterInformation  : {
+        id : "DnjzL5wPJE5",
+        name : "Cluster_Information"
+    }
+}
