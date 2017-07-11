@@ -77,7 +77,7 @@ exports.CLUSTER_DE_CASE_TEI_UID = "TTN6YvF19W1";
 
 exports.CLUSTER_DE_GROUP_DE_TO_SHOW = "sXzZ0Xl2F0j";
 exports.LAB_DE_GROUP_UID = "dhw8v5ntj2U";
-exports.EMAIL_GROUP_UID = "Xd1Be2b1D8x";
+exports.EMAIL_GROUP_UID = "r9VXthBBBsk";
 
 
 
