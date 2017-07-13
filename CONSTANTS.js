@@ -4,6 +4,7 @@
 
 exports.DHIS_URL_BASE = "http://139.162.61.147/nieodk/";
 //exports.DHIS_URL_BASE = "http://localhost:8090/dhis/";
+exports.DEST_PATH_BASE = "/tomcat_nieodk/dhis_home/documents/";
 
 
 exports.username = "admin";
@@ -78,6 +79,7 @@ exports.CLUSTER_DE_CASE_TEI_UID = "TTN6YvF19W1";
 exports.CLUSTER_DE_GROUP_DE_TO_SHOW = "sXzZ0Xl2F0j";
 exports.LAB_DE_GROUP_UID = "dhw8v5ntj2U";
 exports.EMAIL_GROUP_UID = "r9VXthBBBsk";
+exports.EMAIL_GROUP_CC_UID = "eS1b9n7YVc0";
 
 
 
