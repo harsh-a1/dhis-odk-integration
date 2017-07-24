@@ -44,7 +44,8 @@ exports.ODK_OrgUnitQuestion = "Address_Information/Village";
 exports.DHIS_DefaultCategoryCombo = "GLevLNI9wkl";
 exports.DHIS_ROOT_OU_UID = "mnbTnDyJ37p";
 exports.DHIS_DE_ODK_FORMID = "glBt6kk3AXS";
-
+exports.DHIS_DE_DUPLICATE_CASE = "DqQoNAJ3jwl";
+exports.DHIS_DE_DATE = "o5bAIpGOHqa";
 
 
 
