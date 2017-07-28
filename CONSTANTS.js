@@ -8,7 +8,7 @@ exports.DEST_PATH_BASE = "/tomcat_nieodk/dhis_home/documents/";
 
 
 exports.username = "admin";
-exports.password = "district";
+exports.password = "Hisp@1234";
 exports.auth = "Basic " + new Buffer(exports.username + ":" + exports.password).toString("base64");
 
 //exports.ODKURL_INSTANCE_IDS = "http://112.133.207.124:8080/ODKAggregate/view/submissionList?formId=edfss_data_form"
