@@ -46,7 +46,7 @@ exports.DHIS_ROOT_OU_UID = "mnbTnDyJ37p";
 exports.DHIS_DE_ODK_FORMID = "glBt6kk3AXS";
 exports.DHIS_DE_DUPLICATE_CASE = "DqQoNAJ3jwl";
 exports.DHIS_DE_DATE = "o5bAIpGOHqa";
-
+exports.DHIS_DE_MEMBEROFCLUSTER = "D6bx5aQ5DOo";
 
 
 exports.DHIS_DE_SYNDROME_UID = "hkbX11lZdlK";
@@ -69,6 +69,7 @@ exports.CLUSTER_TEA_CASES_UIDS = "I2eCWfhryZH";
 exports.CLUSTER_TEA_CLUSTER_METHOD = "nifrYIceHDu";
 exports.CLUSTER_TEA_CLUSTER_INDEX_DATE = "tSauh1hpsrn";
 exports.CLUSTER_TEA_CLUSTER_TAIL_DATE = "b1WmXl2TU5U";
+exports.CLUSTER_TEA_CLUSTER_START_DATE = "XGWh7OT2Pa8";
 
  exports.CLUSTER_TEA__CLUSTER_IDENTIFIER = "eDCvZdpPzQV";
 exports.CLUSTER_TEA_COORDINATE = "sanq4S5uYdb";
