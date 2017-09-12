@@ -2,8 +2,8 @@
  * Created by harsh on 16/7/16.
  */
 
-exports.DHIS_URL_BASE = "http://139.162.61.147/nieodk/";
-//exports.DHIS_URL_BASE = "http://localhost:8090/dhis/";
+exports.DHIS_URL_BASE = "http://112.133.207.124/nieodk/";
+//exports.DHIS_URL_BASE = "http://localhost:8090/2.27NIE/";
 exports.DEST_PATH_BASE = "/tomcat_nieodk/dhis_home/documents/";
 
 
