@@ -3,16 +3,14 @@
  */
 
 exports.DHIS_URL_BASE = "http://112.133.207.124/nieodk/";
-//exports.DHIS_URL_BASE = "http://localhost:8090/2.27NIE/";
+//exports.DHIS_URL_BASE = "http://localhost:8080/dhis/";
+//exports.DEST_PATH_BASE = "/home/hisp/Desktop/tomcat/dhis_home/documents/";
 exports.DEST_PATH_BASE = "/tomcat_nieodk/dhis_home/documents/";
 
 
 exports.username = "admin";
 exports.password = "Hisp@1234";
 exports.auth = "Basic " + new Buffer(exports.username + ":" + exports.password).toString("base64");
-
-//exports.ODKURL_INSTANCE_IDS = "http://112.133.207.124:8080/ODKAggregate/view/submissionList?formId=edfss_data_form"
-
 
 
 exports.ODKURL_HOSTNAME = "/GHSA";
