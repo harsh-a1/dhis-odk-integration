@@ -2,12 +2,12 @@
  * Created by harsh on 16/7/16.
  */
 
-exports.DHIS_URL_BASE = "http://112.133.207.124/nieodk/";
+//exports.DHIS_URL_BASE = "http://112.133.207.124/nieodk/";
 //exports.DHIS_URL_BASE = "http://139.162.61.147//nieodk/";
 
-//exports.DHIS_URL_BASE = "http://localhost:8080/dhis/";
-//exports.DEST_PATH_BASE = "/home/hisp/Desktop/tomcat/dhis_home/documents/";
-exports.DEST_PATH_BASE = "/home/nieodk/tomcat_nieodk/dhis_home/documents/";
+exports.DHIS_URL_BASE = "http://localhost:8080/dhis/";
+exports.DEST_PATH_BASE = "/home/hisp/Desktop/tomcat/dhis_home/documents/";
+//exports.DEST_PATH_BASE = "/home/nieodk/tomcat_nieodk/dhis_home/documents/";
 
 
 exports.username = "admin";
